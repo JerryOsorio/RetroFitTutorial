@@ -5,17 +5,4 @@ package com.jerrysolutions.beastmovies.services;
  */
 
 public class MovieServices {
-    private MovieServices() {
-    }
-
-    public static class SearchMoviesRequest{
-        public String query;
-
-        public SearchMoviesRequest(String query) {
-            this.query = query;
-        }
-    }
-    public static class SearchMoviesResponse{
-        public String modifiedQuery;
-    }
 }
